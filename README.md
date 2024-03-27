@@ -114,7 +114,7 @@ The Android Application should be built after the necessary values are provided 
   </body>
 </html>
 
-To customize the aforementioned String resources, the <code>strings.xml</code> file under the <a href="https://github.com/thanoskalantzis/S.now/tree/main/Website%20%26%20PHP/connect">/Android/app/src/main/res/values</a> directory should be accordingly modified. 
+To customize the aforementioned String resources, the <code>strings.xml</code> file under the <a href="https://github.com/thanoskalantzis/S.now/tree/main/Android/app/src/main/res/values">/Android/app/src/main/res/values</a> directory should be accordingly modified. 
 
 After all aforementioned steps are performed, <strong>build</strong> the Android Project and <strong>enjoy!</strong>
 
