@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/displayActiveOrders"
+        android:title="@string/activeOrdersMenuText" />
+
+    <item
+        android:id="@+id/displayCompletedOrders"
+        android:title="@string/completedOrdersMenuText" />
+
+    <item
+        android:id="@+id/deleteWorkplace"
+        android:title="@string/deleteWorkplaceText" />
+</menu>

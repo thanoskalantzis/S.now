@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="project.snow">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:usesCleartextTraffic="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".CustomerLoginActivity"
+            android:noHistory="true"></activity>
+        <activity android:name=".BusinessLoginActivity"
+            android:noHistory="true"></activity>
+
+        <activity android:name=".CustomerRegisterActivity"
+            android:noHistory="true"></activity>
+        <activity android:name=".BusinessRegisterActivity"
+            android:noHistory="true"></activity>
+
+        <activity android:name=".BusinessSelectionActivity"></activity>
+        <activity android:name=".BusinessActivity"></activity>
+        <activity android:name=".NewProductActivity"></activity>
+        <activity android:name=".EditProductsActivity"></activity>
+        <activity android:name=".ControlEditProductActivity"></activity>
+        <activity android:name=".EditProductsListAdapter"></activity>
+
+        <activity android:name=".AboutActivity"></activity>
+        <activity android:name=".ContactActivity"></activity>
+        <activity android:name=".JSONParser"></activity>
+        <activity android:name=".Business"></activity>
+        <activity android:name=".BusinessSelectionListAdapter"></activity>
+
+        <activity android:name=".ProductsSelectionActivity"></activity>
+        <activity android:name=".ProductsSelectionListAdapter"></activity>
+        <activity android:name=".Product"></activity>
+        <activity android:name=".OrderItem"></activity>
+        <activity android:name=".OrderActivity"></activity>
+        <activity android:name=".OrderListAdapter"></activity>
+
+        <activity android:name=".DisplayOrdersDetailsActivity"></activity>
+        <activity android:name=".DisplayOrdersDetailsListAdapter"></activity>
+        <activity android:name=".FinalOrder"></activity>
+
+        <activity android:name=".ControlOrderActivity"></activity>
+        <activity android:name=".ControlOrderListAdapter"></activity>
+
+        <activity
+            android:name=".EmployeeLoginActivity"
+            android:noHistory="true"></activity>
+        <activity
+            android:name=".EmployeeRegisterActivity"
+            android:noHistory="true"></activity>
+
+        <activity android:name=".Employee"></activity>
+        <activity android:name=".EmployeeAccountActivity" android:noHistory="true"></activity>
+
+        <activity android:name=".WorkSelectionActivity"></activity>
+        <activity android:name=".WorkSelectionActivityListAdapter"></activity>
+
+        <activity android:name=".CustomerAccountActivity" android:noHistory="true"></activity>
+
+        <activity android:name=".BusinessAccountActivity" android:noHistory="true"></activity>
+
+
+        <uses-library android:name="org.apache.http.legacy" android:required="false"/>
+    </application>
+
+</manifest>
+    <!--"@mipmap/ic_launcher_round" "@mipmap/ic_launcher" -->

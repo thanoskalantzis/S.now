@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".NewProductActivity"
+    android:background="@drawable/background"
+    android:layout_gravity="center">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_gravity="center_horizontal">
+
+            <TextView
+                android:id="@+id/addNewProductText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="@string/addNewProductText"
+                android:textColor="@color/white"
+                android:textSize="35sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/selectCategoryButton"
+                style="@android:style/Widget.Button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp"
+                android:text="@string/selectCategoryText" />
+
+            <EditText
+                android:id="@+id/newProductIdNameInput"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:autofillHints=""
+                android:ems="10"
+                android:maxLength="50"
+                android:hint="@string/productIdNameText"
+                android:inputType="textPersonName"
+                android:labelFor="@string/productIdNameText"
+                android:textColor="@color/white"
+                android:layout_marginTop="5dp"
+                android:textColorHint="@color/white"
+                android:textSize="14sp" />
+
+            <MultiAutoCompleteTextView
+                android:id="@+id/newDescriptionInput"
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:autofillHints="@string/productDescriptionText"
+                android:ems="10"
+                android:lines="2"
+                android:maxLength="200"
+                android:hint="@string/productDescriptionText"
+                android:labelFor="@string/productDescriptionText"
+                android:textColor="@color/white"
+                android:textColorHint="@color/white"
+                android:textSize="14sp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_marginTop="5dp"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/newProductPriceText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:autofillHints=""
+                    android:gravity="left"
+                    android:hint="@string/productPriceText"
+                    android:text="@string/productPriceText"
+                    android:textColor="@color/white"
+                    android:textColorHint="@color/white"
+                    android:textSize="15sp"
+                    android:textStyle="bold|italic" />
+
+                <TextView
+                    android:id="@+id/newProductPriceExplained"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="left"
+                    android:text="@string/newProductPriceExplained"
+                    android:textSize="15sp"
+                    android:textStyle="italic"
+                    android:autofillHints=""
+                    android:hint="@string/newProductPriceExplained"
+                    android:textColor="@color/white"
+                    android:textColorHint="@color/white"/>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_marginTop="5dp"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                    <EditText
+                        android:id="@+id/newProductPriceAinput"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:ems="10"
+                        android:maxLength="3"
+                        android:textSize="14sp"
+                        android:autofillHints=""
+                        android:hint="@string/newProductPriceAtext"
+                        android:textColor="@color/white"
+                        android:textColorHint="@color/white"
+                        android:inputType="number" />
+
+                    <EditText
+                        android:id="@+id/newProductPriceBinput"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:ems="10"
+                        android:maxLength="2"
+                        android:textSize="14sp"
+                        android:autofillHints=""
+                        android:hint="@string/newProductPriceBtext"
+                        android:textColor="@color/white"
+                        android:textColorHint="@color/white"
+                        android:inputType="number" />
+
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/addNewProductButton"
+                style="@style/Widget.AppCompat.Button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@color/purple"
+                android:text="@string/addNewProductButtonText"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

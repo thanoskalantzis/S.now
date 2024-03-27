@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="top|right"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/coffeeImage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top|right"
+            android:adjustViewBounds="true"
+            android:contentDescription="@string/coffeeImageText"
+            android:scaleType="fitXY"
+            app:srcCompat="@drawable/coffee" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="bottom|left"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/beersImage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|left"
+            android:adjustViewBounds="true"
+            android:contentDescription="@string/beersImageText"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/beers" />
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/mainMenuLinearLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center_horizontal"
+            android:layout_marginStart="15dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginEnd="15dp"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/customerButton"
+                style="@android:style/Widget.Button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:background="@color/lime"
+                android:shadowColor="@color/lime"
+                android:text="@string/customerButton"
+                android:textColor="@color/black"
+                android:textSize="17dp"
+                android:textStyle="bold|italic" />
+
+            <Button
+                android:id="@+id/businessButton"
+                style="@android:style/Widget.Button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+
+                android:background="@color/yellowDark"
+                android:shadowColor="@color/yellowDark"
+                android:text="@string/businessButton"
+                android:textColor="@color/black"
+                android:textSize="15sp" />
+
+            <Button
+                android:id="@+id/employeeButton"
+                style="@android:style/Widget.Button"
+                android:layout_width="match_parent"
+                android:text="@string/employeeButton"
+                android:layout_height="wrap_content"
+                android:background="@color/yellowDark"
+                android:shadowColor="@color/yellowDark"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/black"
+                android:textSize="15sp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="15dp"
+        android:gravity="bottom|right"
+        tools:layout_editor_absoluteY="406dp">
+
+        <Button
+            android:id="@+id/infoAndContactButton"
+            style="@android:style/Widget.Button"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginEnd="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginBottom="30dp"
+            android:background="@drawable/round_button" />
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

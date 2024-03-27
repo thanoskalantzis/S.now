@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/Coffees"
+        android:title="Καφέδες" />
+    <item
+        android:id="@+id/Brews"
+        android:title="Ροφήματα/Χυμοί"/>
+    <item
+        android:id="@+id/Beverages"
+        android:title="Αναψυκτικά"/>
+    <item
+        android:id="@+id/Beers"
+        android:title="Μπύρες"/>
+    <item
+        android:id="@+id/Wines"
+        android:title="Κρασιά/Ούζο/Τσίπουρο..."/>
+    <item
+        android:id="@+id/Drinks"
+        android:title="Ποτά"/>
+    <item
+        android:id="@+id/Cocktails"
+        android:title="Κοκτέιλ"/>
+    <item
+        android:id="@+id/NonAlcoholicBeverages"
+        android:title="Μη αλκοολούχα ποτά"/>
+
+    <item
+        android:id="@+id/Snacks"
+        android:title="Snacks"/>
+
+    <item
+        android:id="@+id/Food"
+        android:title="Φαγητό"/>
+
+    <item
+        android:id="@+id/Desserts"
+        android:title="Γλυκά"/>
+</menu>

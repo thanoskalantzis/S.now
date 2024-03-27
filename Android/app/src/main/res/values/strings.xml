@@ -1,0 +1,141 @@
+<resources>
+    <string name="app_name">S.now</string>
+	
+    <!-- CUSTOMIZE -->
+    <string name="BASE_URL"><!-- PROVIDE BASE URL OF CUSTOM WEBSITE --></string>
+    <string name="DATABASE_SERVER"><!-- PROVIDE DATABASE SERVER LOCATION --></string>
+    <string name="DATABASE_NAME"><!-- PROVIDE DATABASE NAME --></string>
+    <string name="DATABASE_USERNAME"><!-- PROVIDE DATABASE USERNAME --></string>
+    <string name="DATABASE_PASSWORD"><!-- PROVIDE DATABASE PASSWORD --></string>
+	
+    <string name="summaryCustomer">S.now for Customers</string>
+    <string name="summaryBusiness">S.now for Businesses</string>
+    <string name="summaryEmployee">S.now for Employees</string>
+    <string name="summaryOther">Επιπλέον δυνατότητες</string>
+
+    <string name="customerButton">Login Πελάτη</string>
+    <string name="businessButton">S.now για Επιχειρήσεις</string>
+    <string name="employeeButton">S.now για Εργαζόμενους</string>
+    <string name="aboutButton">Σχετικά με εμάς</string>
+    <string name="contactButton">Επικοινωνήστε μαζί μας</string>
+
+    <string name="loginText">Login</string>
+    <string name="businessAfmText">ΑΦΜ επιχείρησης</string>
+    <string name="businessAfmText2">ΑΦΜ επιχείρησης:</string>
+
+    <string name="passwordText">Εισάγετε κωδικό</string>
+    <string name="registerQuestionText">Δεν έχετε λογαριασμό;</string>
+    <string name="registerText">Register</string>
+    <string name="registerButton1Text">Εγγραφείτε</string>
+    <string name="loginButton">ΣΥΝΔΕΣΗ</string>
+
+    <string name="emailText">Email</string>
+    <string name="emailText2">Email:</string>
+    <string name="businessUniqueIdNameText">Εισάγετε το όνομα της επιχείρησής σας</string>
+    <string name="businessUniqueIdName2">Όνομα επιχείρησης:</string>
+    <string name="phoneNumberText">Tηλέφωνο επιχείρησης</string>
+    <string name="phoneNumberText2">Tηλέφωνο επιχείρησης:</string>
+    <string name="mobileNumberText">Κινητό τηλέφωνο</string>
+    <string name="mobileNumberText2">Tηλέφωνο:</string>
+    <string name="businessAddressText">Οδός Αριθμός, Πόλη</string>
+    <string name="businessAddressText2">Διεύθυνση επιχείρησης:</string>
+    <string name="postalCodeText">Ταχυδρομικός Κώδικας</string>
+    <string name="postalCodeText2">Ταχυδρομικός Κώδικας:</string>
+    <string name="numberTablesText">Aριθμός τραπεζιών στην επιχείρηση*</string>
+    <string name="numberTablesExplained">*Ο αριθμός τραπεζιών στην επιχείρηση αντιπροσωπεύει το τρέχον μέγιστο πλήθος των τραπεζιών του εκάστοτε καταστήματος και είναι πολύ σημαντικός στο στάδιο της περάτωσης των παραγγελιών.</string>
+    <string name="registerButton2Text">ΕΓΓΡΑΦΗ</string>
+
+    <string name="employeeAfmText">ΑΦΜ εργαζομένου</string>
+    <string name="employeeAfmText2">ΑΦΜ εργαζομένου:</string>
+
+    <string name="businessSearchToolbarText">Αναζήτηση...</string>
+
+    <string name="addProductsText">ΝΕΟ ΠΡΟΪΟΝ</string>
+    <string name="editProductsText">ΕΠΕΞΕΡΓΑΣΙΑ ΠΡΟΪΟΝΤΟΣ</string>
+    <string name="editNumberTablesText">ΑΡΙΘΜΟΣ ΤΡΑΠΕΖΙΩΝ</string>
+
+    <string name="firstNameText">Όνομα</string>
+    <string name="firstNameText2">Όνομα:</string>
+    <string name="lastNameText">Επώνυμο</string>
+    <string name="lastNameText2">Επώνυμο:</string>
+
+    <string name="businessSearchBar">Search</string>
+    <string name="productsSelectionTabBarText">Search</string>
+
+    <string name="coffeesBarText">Καφέδες</string>
+    <string name="softDrinksBarText">Ροφήματα</string>
+    <string name="beersBarText">Μπύρες</string>
+    <string name="winesBarText">Κρασιά</string>
+    <string name="beersImageText">Beers Image</string>
+    <string name="coffeeImageText">Coffee Image</string>
+    <string name="infoImageButtonText">Info Image Button</string>
+
+    <string name="cancelOrderButtonText">Ακύρωση Παραγγελίας</string>
+    <string name="submitOrderButtonText">Αποστολή Παραγγελίας</string>
+
+    <string name="activeOrdersMenuText">Ενεργές Παραγγελίες</string>
+    <string name="completedOrdersMenuText">Ολοκληρωμένες</string>
+
+    <string name="orderCompletedButtonText">Ολοκληρώθηκε</string>
+    <string name="orderCanceledButtonText">Ακύρωση Παραγγελίας</string>
+
+    <string name="employeeInfoText">*\nΣας πληροφορούμε τα εξής σχετικά με την ενεργοποίηση του λογαριασμού σας:\n\n1. Θα πρέπει πρώτα να σας προσθέσει στο σύστημα ο υπεύθυνος της συνεργαζόμενης επιχείρησης στην οποία εργάζεστε\n2. Στη συνέχεια θα μπορέσετε να συνδεθείτε επιτυχώς στο σύστημά μας.\n\nΓια οποιοδήποπε λάθος, επικοινωνήστε μαζί μας, είτε με την ίδια την επιχείρηση.\n*</string>
+
+    <string name="newProductButtonText">Νέο προϊόν</string>
+    <string name="editProductButtonText">Τροποποίηση προϊόντων</string>
+    <string name="addWorkingEmployeeButtonText">Προσθήκη εργαζομένου</string>
+    <string name="xWorkingEmployeeText">Αφαίρεση εργαζομένου</string>
+    <string name="alterNumberTablesText1">Τροποποιήστε το τρέχον αριθμό τραπεζιών της επιχείρησης σας!</string>
+    <string name="alterNumberTablesText2">Αριθμός τραπεζιών</string>
+    <string name="alterNumberTablesText3">ΤΡΟΠΟΠΟΙΗΣΗ ΑΡΙΘΜΟΥ</string>
+
+
+    <string name="addNewProductText">Προσθέστε νέο προϊόν στην επιχείρησή σας!</string>
+    <string name="selectCategoryText">Κατηγορία Προϊόντος</string>
+
+    <string name="productIdNameText">Όνομα προϊόντος</string>
+    <string name="productIdNameText2">Όνομα προϊόντος:</string>
+    <string name="productDescriptionText">Περιγραφή προϊόντος</string>
+    <string name="productDescriptionText2">Περιγραφή προϊόντος:</string>
+    <string name="productPriceText">Τιμή προϊόντος:</string>
+
+    <string name="newProductPriceAtext">Ακέραιο μέρος</string>
+    <string name="newProductPriceBtext">Δεκαδικό μέρος</string>
+    <string name="newProductPriceExplained">(Μορφή: 12.50)</string>
+    <string name="addNewProductButtonText">ΠΡΟΣΘΗΚΗ ΣΤΟΝ ΚΑΤΑΛΟΓΟ</string>
+
+    <string name="editProductText">Τροποποίηση προϊόντος</string>
+
+    <string name="controlEditProductText">Στοιχεία προϊόντος</string>
+
+    <string name="controlEditNameButton">ΑΛΛΑΓΗ ΟΝΟΜΑΤΟΣ</string>
+    <string name="controlEditDescriptionButton">ΑΛΛΑΓΗ ΠΕΡΙΓΡΑΦΗΣ ΠΡΟΪΟΝΤΟΣ</string>
+    <string name="controlEditPriceButton">ΑΛΛΑΓΗ ΤΙΜΗΣ</string>
+    <string name="controlEditDeleteButton">ΔΙΑΓΡΑΦΗ ΠΡΟΪΟΝΤΟΣ</string>
+
+    <string name="aboutTitle">Σχετικά με εμάς</string>
+    <string name="aboutText">Η Εφαρμογή αυτή υλοποιήθηκε με βασικό γνώμονα το να παρέχει άμεσα στους ίδιους τους πελάτες τη δυνατότητα της online παραγγελίας σε επιχειρήσεις μικρής εστίασης.\n\nΕπιπλέον στόχος, αποτελεί η παροχή της άμεσης δυνατότητας στις επιχείρησης αυτές να εκτελούν μόνες τους όλες τις απαραίτητες για αυτούς λειτουργίες.</string>
+    <string name="serverStatusTitle">Server Status: </string>
+
+    <string name="contactHeaderText1">Στείλτε μας το μήνυμά σας</string>
+    <string name="contactHeaderText2">Συμπληρώστε την παρακάτω ηλεκτρονική φόρμα.\nΌλα τα πεδία είναι υποχρεωτικά.</string>
+    <string name="contactTitleText">Τίτλος μηνύματος</string>
+    <string name="contactMessageText">Πληκτρολογήστε το μήνυμά σας</string>
+    <string name="sendMessageText">ΑΠΟΣΤΟΛΗ</string>
+
+    <string name="myAccountText">Ο λογαριασμός μου</string>
+    <string name="accountText">Στοιχεία λογαριασμού</string>
+    <string name="businessAccountText">Στοιχεία λογαριασμού επιχείρησης</string>
+
+    <string name="changePasswordText">ΑΛΛΑΓΗ ΚΩΔΙΚΟΥ</string>
+    <string name="deleteAccountText">ΔΙΑΓΡΑΦΗ ΛΟΓΑΡΙΑΣΜΟΥ</string>
+    <string name="deleteBusinessText">ΔΙΑΓΡΑΦΗ ΕΠΙΧΕΙΡΗΣΗΣ</string>
+
+    <string name="deleteWorkplaceText">Διαγραφή χώρου εργασίας</string>
+
+    <string name="editBusinessNameButton">ΑΛΛΑΓΗ ΟΝΟΜΑΤΟΣ ΕΠΙΧΕΙΡΗΣΗΣ</string>
+    <string name="editBusinessEmailButton">ΑΛΛΑΓΗ EMAIL</string>
+    <string name="editBusinessAddressButton">ΑΛΛΑΓΗ ΔΙΕΥΘΥΝΣΗΣ</string>
+    <string name="editBusinessPostalButton">ΑΛΛΑΓΗ ΤΑΧΥΔΡΟΜΙΚΟΥ ΚΩΔΙΚΑ</string>
+    <string name="editBusinessPhoneButton">ΑΛΛΑΓΗ ΤΗΛΕΦΩΝΟΥ</string>
+</resources>
