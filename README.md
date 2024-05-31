@@ -53,7 +53,6 @@ A plethora of technologies were used to build this Project:
 - PHP
 - Online MySQL Database
 - Free Web Hosting
-- phpMyAdmin
 
 # Deployment
 
