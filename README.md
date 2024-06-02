@@ -83,7 +83,7 @@ Thus, to successfully use this Application, both a Web Server and a MySQL Databa
         <div>
           <div>Where:</div>
           <ol>
-            <li><code>getString(R.string.BASE_URL)</code>: returns the <code>{BASE_URL}</code> as defined within the <strong>String resources file</strong> (<a href="https://github.com/thanoskalantzis/S.now/blob/main/Android/app/src/main/res/values/strings.xml">strings.xml</a>),</li>
+            <li><code>getString(R.string.BASE_URL)</code>: returns the <code>{BASE_URL}</code> as defined within the <strong>String resources</strong> file (<a href="https://github.com/thanoskalantzis/S.now/blob/main/Android/app/src/main/res/values/strings.xml">strings.xml</a>),</li>
             <li>
               <div><code>{php_file}</code>: the name of the <strong>targeted PHP file</strong>.</div>
               <div>The targeted PHP file corresponds to the script file that will eventually process the HTTP Request on the Server side.</div>
