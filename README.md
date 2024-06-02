@@ -83,7 +83,7 @@ Thus, to successfully use this Application, both a Web Server and a MySQL Databa
         <div>
           <div>Where:</div>
           <ol>
-            <li><code>getString(R.string.BASE_URL)</code>: returns the <code>{BASE_URL}</code> as defined within the <strong>String resources</strong> (<code>strings.xml</code>),</li>
+            <li><code>getString(R.string.BASE_URL)</code>: returns the <code>{BASE_URL}</code> as defined within the <strong>String resources file</strong> (<a href="https://github.com/thanoskalantzis/S.now/blob/main/Android/app/src/main/res/values/strings.xml">strings.xml</a>),</li>
             <li>
               <div><code>{php_file}</code>: the name of the <strong>targeted PHP file</strong>.</div>
               <div>The targeted PHP file corresponds to the script file that will eventually process the HTTP Request on the Server side.</div>
@@ -93,7 +93,7 @@ Thus, to successfully use this Application, both a Web Server and a MySQL Databa
       </li>
       <li>
         <div>The necessary <strong>query parameters</strong> are also constructed before an HTTP Request is performed.</div>
-        <div>E.g. The necessary parameters used for <strong>Authentication</strong> purposes are the ones mentioned in the next <i><a href="#android-application">"Android Application"</a></i> section.</div>
+        <div>E.g. The necessary parameters used for <strong>Authentication</strong> purposes are the ones mentioned in the next <a href="#android-application">"Android Application"</a> section.</div>
       </li>
     </ol>
   </li>
@@ -113,7 +113,7 @@ The Android Application should be built after the necessary values are provided 
   </body>
 </html>
 
-To customize the aforementioned String resources, the <code>strings.xml</code> file under the <a href="https://github.com/thanoskalantzis/S.now/tree/main/Android/app/src/main/res/values">/Android/app/src/main/res/values</a> directory should be accordingly modified. 
+To customize the aforementioned String resources, the <a href="https://github.com/thanoskalantzis/S.now/blob/main/Android/app/src/main/res/values/strings.xml">strings.xml</a> file located under the <a href="https://github.com/thanoskalantzis/S.now/tree/main/Android/app/src/main/res/values">/Android/app/src/main/res/values</a> directory should be accordingly modified. 
 
 After all aforementioned steps are performed, <strong>build</strong> the Android Project and <strong>enjoy!</strong>
 
