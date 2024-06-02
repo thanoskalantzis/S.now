@@ -22,11 +22,11 @@ CREATE TABLE all_employees (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
 INSERT INTO all_employees (afm_employee, first_name, last_name, email, password, phone) VALUES
-(103103103, 'Test', 'Employee1', 'employee1@test.email.gr', '#empl1!', 6900000001),
-(123456789, 'Test', 'Employee2', 'employee2@test.email.gr', '#empl2!', 6900000002),
-(204620462, 'Test', 'Employee3', 'employee3@test.email.gr', '#empl3!', 6900000003),
-(246824682, 'Test', 'Employee4', 'employee4@test.email.gr', '#empl4!', 6900000004),
-(258008520, 'Test', 'Employee5', 'employee5@test.email.gr', '#empl5!', 6900000005);
+(103103103, 'Νίκος', 'Νικολάου', 'employee1@test.email.gr', '#empl1!', 6900000001),
+(123456789, 'Γιάννης', 'Ιωάννου', 'employee2@test.email.gr', '#empl2!', 6900000002),
+(204620462, 'Γιώργος', 'Γεωργίου', 'employee3@test.email.gr', '#empl3!', 6900000003),
+(246824682, 'Νικολέτα', 'Νικολάου', 'employee4@test.email.gr', '#empl4!', 6900000004),
+(258008520, 'Αλέξης', 'Αλεξίου', 'employee5@test.email.gr', '#empl5!', 6900000005);
 
 CREATE TABLE businesses (
   email varchar(320) NOT NULL,
@@ -40,14 +40,14 @@ CREATE TABLE businesses (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
 INSERT INTO businesses (email, password, business_id_name, afm_business, phone, address, postal_code, number_tables) VALUES
-('arch-wine-bar@test.email.gr', '#store1', 'Arch Wine Bar', 318046503, 2236000001, 'Test Street 12, Λαμία', 35100, 20),
-('city-garden-bar@test.email.gr', '#store2', 'City Garden Bar', 543782460, 2310500002, 'Test Street 34, Θεσσαλονίκη', 54634, 10),
-('mojito-flavours-and-more@test.email.gr', '#store3', 'Mojito Flavours & More Bar', 685724019, 2100000003, 'Test Street 56, Γαλάτσι', 11146, 14),
-('beer-situations@test.email.gr', '#store4', 'Beer-οκαταστάσεις Χανίων', 731982460, 2821900004, 'Test Street 78, Χανιά', 73134, 18),
-('bamboo-beer-pub@test.email.gr', '#store5', 'Bamboo Beer Pub', 741236985, 2100000005, 'Test Boulevard 987, Αθήνα', 10435, 24),
-('chill-coffee-routine@test.email.gr', '#store6', 'Chill @ Coffee Routine', 895623741, 2310500006, 'Test Boulevard 654, Θεσσαλονίκη', 54630, 16),
-('coffee-time@test.email.gr', '#store7', 'Coffee Time', 976431028, 2100000007, 'Test Boulevard 321, Γαλάτσι', 11146, 30),
-('beer-adiko@test.email.gr', '#store8', 'Beer-adiko', 987654321, 2818000009, 'Test Boulevard 101, Ιωάννινα', 45332, 25);
+('arch-wine-bar@test.email.gr', '#store1', 'Arch Wine Bar', 318046503, 2236000001, 'Ξενοφώντος 7, Λαμία', 35100, 20),
+('city-garden-bar@test.email.gr', '#store2', 'City Garden Bar', 543782460, 2310500002, 'Ιφικράτους 21, Θεσσαλονίκη', 54634, 10),
+('mojito-flavours-and-more@test.email.gr', '#store3', 'Mojito Flavours & More Bar', 685724019, 2100000003, 'Λεωφόρος Βεΐκου 4, Γαλάτσι', 11146, 14),
+('beer-situations@test.email.gr', '#store4', 'Beer-οκαταστάσεις Χανίων', 731982460, 2821900004, 'Παναγούλη 155, Χανιά', 73134, 18),
+('bamboo-beer-pub@test.email.gr', '#store5', 'Bamboo Beer Pub', 741236985, 2100000005, 'Λεωνίδου 60, Αθήνα', 10435, 24),
+('chill-coffee-routine@test.email.gr', '#store6', 'Chill @ Coffee Routine', 895623741, 2310500006, 'Αγίου Δημητρίου 32, Θεσσαλονίκη', 54630, 16),
+('coffee-time@test.email.gr', '#store7', 'Coffee Time', 976431028, 2100000007, 'Λεωφόρος Βεΐκου 674, Γαλάτσι', 11146, 30),
+('beer-adiko@test.email.gr', '#store8', 'Beer-adiko', 987654321, 2818000009, 'Σακκά 1, Ιωάννινα', 45332, 25);
 
 CREATE TABLE categories (
   category_id int(10) UNSIGNED NOT NULL,
@@ -76,8 +76,8 @@ CREATE TABLE customers (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
 INSERT INTO customers (first_name, last_name, email, password, phone) VALUES
-('Test', 'Customer1', 'customer1@test.email.gr', '#cust1', 6810101010),
-('Test', 'Customer2', 'customer2@test.email.gr', '#cust2', 6920202020);
+('Κωνσταντίνος', 'Κωνσταντινίδης', 'customer1@test.email.gr', '#cust1', 6810101010),
+('Περικλής', 'Περικλέους', 'customer2@test.email.gr', '#cust2', 6920202020);
 
 CREATE TABLE messages (
   first_name varchar(50) NOT NULL,
